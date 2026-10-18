@@ -5,7 +5,7 @@ This repository contains an end-to-end data science and business analytics pipel
 ## 📊 Executive Workstreams
 1. **Predictive Biomarker Churn Pipeline:** Blending transactional field attendance records with wearable telemetry data (Heart Rate Variability & Chronic Stress scores) via an advanced Gradient Boosting architecture (`HistGradientBoostingClassifier`).
 2. **Causal Marketing Attribution:** Leveraging a native **Bayesian Structural Time Series (BSTS)** state-space model (`statsmodels.tsa.UnobservedComponents`) to construct a synthetic counterfactual twin, isolating true incremental marketing campaign lift from organic seasonal cycles (e.g., the classic January New Year rush).
-3. **Model Interpretability (SHAP Suite):** Utilizing Shapley Additive exPlanations to open the tree-based "black box," map exact causal directions, and isolate complex non-linear interactive features without classical econometric multicollinearity inflation.
+3. **Model Interpretability (SHAP Suite):** Utilizing Shapley Additive exPlanations to open the tree-based "black box," map exact causal directions, and isolate complex non-linear interactive features without classical econometric multicollinearity inflation and mapping non-linear interactive features. Configured to theoretically scale and capture critical biological and hormonal micro-cycles (such as menstrual phases or perimenopausal transitions) without variance inflation.
 
 ## 🔬 Core Insights & Domain Mechanics
 - **The "Athlete Regularity" Edge:** Driven by SHAP dependency analysis, the architecture successfully isolates programmatic training adjustments (low-frequency check-in consistency combined with low chronic stress load) from genuine, fatigue-driven drop-out risks.
